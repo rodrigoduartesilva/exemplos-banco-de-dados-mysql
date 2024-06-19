@@ -7,30 +7,6 @@ Enunciado: Exemplos básicos de criação de um banco de dados, criação de tab
 <img src="modeloralcional.png" />
 </div>
 
-```mermaid
-
-Usuario
--
-id pk int
-nome string
-email string
-dataNascimento Date
-endereco string
-
-Reservas
--
-id pk int
-idUsuario int fk >- Usuario.id
-idDestino int fk >- Destinos.id
-status String
-
-Destinos
--
-id pk int
-nome String
-descricao String
-
-```
 
 ## Criando as tabelas
 
